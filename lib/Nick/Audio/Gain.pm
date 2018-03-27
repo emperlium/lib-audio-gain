@@ -13,6 +13,10 @@ BEGIN {
     XSLoader::load 'Nick::Audio::Gain' => $VERSION;
 }
 
+=head1 NAME
+
+Nick::Audio::Gain - Module for retrieving gain information from PCM audio data.
+
 =head1 SYNOPSIS
 
     use Nick::Audio::Gain;
